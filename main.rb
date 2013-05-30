@@ -17,3 +17,4 @@ number_of_groups.times do |group_number|
   print "#{classnames.pop(group_size).join(', ')}"
 end
 puts ", #{classnames.join(', ')}\n\n".color("#33cc00") if classnames.any?
+puts "good luck with your project!"
